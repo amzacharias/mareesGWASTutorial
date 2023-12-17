@@ -1,4 +1,0 @@
-WorkflowError in file /global/home/hpc4920/mareesTutorialGWAS/workflow/Snakefile, line 19:
-Failed to open source file /global/home/hpc4920/mareesTutorialGWAS/workflow/rules/missing.smk
-FileNotFoundError: [Errno 2] No such file or directory: '/global/home/hpc4920/mareesTutorialGWAS/workflow/rules/missing.smk'
-  File "/global/home/hpc4920/mareesTutorialGWAS/workflow/Snakefile", line 19, in <module>

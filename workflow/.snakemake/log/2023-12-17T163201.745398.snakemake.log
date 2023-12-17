@@ -1,3 +1,0 @@
-SyntaxError in file /global/home/hpc4920/mareesTutorialGWAS/workflow/rules/missing.smk, line 89:
-invalid syntax. Perhaps you forgot a comma?
-  File "/global/home/hpc4920/mareesTutorialGWAS/workflow/Snakefile", line 21, in <module>
