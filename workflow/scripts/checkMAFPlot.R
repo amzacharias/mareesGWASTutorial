@@ -19,7 +19,7 @@ library(ggplot2) # 3.4.4
 
 # Pathways -----------------------------------------
 # Input ===========
-baseDir <- file.path("results", "1_qcGWAS", "3_filtSNPs")
+baseDir <- file.path("results", "1_qcGWAS", "3_autoMAF")
 freqPath <- file.path(baseDir, "checkMAF.frq")
 
 # Output ===========

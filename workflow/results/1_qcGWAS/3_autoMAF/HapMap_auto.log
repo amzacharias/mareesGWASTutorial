@@ -1,0 +1,28 @@
+PLINK v1.90b6.21 64-bit (19 Oct 2020)
+Options in effect:
+  --bfile results/1_qcGWAS/2_checkSex/HapMap_impSex
+  --chr 1-22
+  --make-bed
+  --out results/1_qcGWAS/3_autoMAF/HapMap_auto
+
+Hostname: caclogin03
+Working directory: /global/home/hpc4920/mareesTutorialGWAS/workflow
+Start time: Sun Dec 17 17:27:20 2023
+
+Random number seed: 1702852040
+161009 MB RAM detected; reserving 80504 MB for main workspace.
+1423833 out of 1457897 variants loaded from .bim file.
+164 people (80 males, 84 females) loaded from .fam.
+112 phenotype values loaded from .fam.
+Using 1 thread (no multithreaded calculations invoked).
+Before main variant filters, 112 founders and 52 nonfounders present.
+Calculating allele frequencies... done.
+Total genotyping rate is 0.997677.
+1423833 variants and 164 people pass filters and QC.
+Among remaining phenotypes, 56 are cases and 56 are controls.  (52 phenotypes
+are missing.)
+--make-bed to results/1_qcGWAS/3_autoMAF/HapMap_auto.bed +
+results/1_qcGWAS/3_autoMAF/HapMap_auto.bim +
+results/1_qcGWAS/3_autoMAF/HapMap_auto.fam ... done.
+
+End time: Sun Dec 17 17:27:21 2023

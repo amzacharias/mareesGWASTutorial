@@ -34,7 +34,7 @@ rule checkMissingStats:
       sh scripts/missingStats.sh -b {params.bfilePath} -o {params.outDir} 1> {log.out} 2> {log.err}
       """
   
-rule makeMissingHists:
+rule checkMissingPlots:
     input:
         plinkStats = expand(join("results", "1_qcGWAS", "1_missing", "plink.{metric}"), 
           metric = ["imiss", "lmiss"])
