@@ -29,13 +29,4 @@ workflow/data
 ./workflow/results/1_qcGWAS/4_HWE/HapMap_HWEcase.bim
 ./workflow/results/1_qcGWAS/4_HWE/plink.hwe
 ./workflow/results/1_qcGWAS/4_HWE/HapMap_HWEctrl.bim
-./workflow/data/HapMap_3_r3_1.bed
-./workflow/data/HapMap_3_r3_1.bim
-./GWA_tutorial/1_QC_GWAS/HapMap_3_r3_1.bed
-./GWA_tutorial/1_QC_GWAS/HapMap_3_r3_1.bim
-./GWA_tutorial/1_QC_GWAS.zip
-./GWA_tutorial/.git/objects/pack/pack-8d82533acf8ac5c5b27e0c1fe79605eaa9c95fe0.pack
-./.git/objects/ed/34e4991aed1b6ce12336771fd246927f095476
-./.git/objects/d4/61efe4866f823d29b7491c02d81f85b1e36386
-./.git/objects/9e/8b57f9c395d39e802c7fd6243d25c5f2283c6c
-./.git/objects/0a/afdfae197916d842ee9ae00591a67a06d8286d
+
