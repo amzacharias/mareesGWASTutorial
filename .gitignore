@@ -2,16 +2,18 @@ GWA_tutorial
 .RData
 .Rhistory
 mareesTutorialGWAS.Rproj
+.Rproj.user
+workflow/.snakemake
 
 # Large files
 # find . -size +50M | cat >> .gitignore
-.Rproj.user./workflow/results/1_qcGWAS/2_checkSex/HapMap_impSex.bed
+./workflow/results/1_qcGWAS/3_autoMAF/checkMAF.frq
+./workflow/results/1_qcGWAS/3_autoMAF/HapMap_auto.bed
+./workflow/results/1_qcGWAS/2_checkSex/HapMap_impSex.bed
 ./workflow/results/1_qcGWAS/1_missing/HapMap_snp0.02.bed
 ./workflow/results/1_qcGWAS/1_missing/plink.lmiss
 ./workflow/results/1_qcGWAS/1_missing/HapMap_ind0.02.bed
 ./workflow/results/1_qcGWAS/1_missing/HapMap_ind0.2.bed
 ./workflow/results/1_qcGWAS/1_missing/HapMap_snp0.2.bed
-./workflow/results/1_qcGWAS/3_filtSNPs/checkMAF.frq
-./workflow/results/1_qcGWAS/3_filtSNPs/HapMap_auto.bed
 ./workflow/data/HapMap_3_r3_1.bed
 ./GWA_tutorial/1_QC_GWAS/HapMap_3_r3_1.bed
