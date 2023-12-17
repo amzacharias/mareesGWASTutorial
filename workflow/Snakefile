@@ -23,8 +23,7 @@ include: join("rules", "checkSex.smk")
 
 rule all:
     input:
-        # MAF report
-        join("results", "1_qcGWAS", "3_filtSNPs", "checkMAF.frq")
+        join("results", "1_qcGWAS", "3_filtSNPs", "checkMAFPlot.pdf")
         
 rule filterAutosomal: 
     input: 
@@ -77,3 +76,22 @@ rule checkMAF:
             1> {log.out} 2> {log.err}
         """  
 
+rule checkMAFPlot: 
+    input: 
+        checkMAFFile = join("results", "1_qcGWAS", "3_filtSNPs", "checkMAF.frq")
+    output: 
+        outFile = join("results", "1_qcGWAS", "3_filtSNPs", "checkMAFPlot.pdf")
+    log: 
+        out = join("logs", "1_qcGWAS", "3_checkMAFPlot.out"), 
+        err = join("logs", "1_qcGWAS", "3_checkMAFPlot.err")
+    resources: 
+        mem_mb = 30000, 
+        runtime = 100, 
+        cpus_per_task = 1, 
+        slurm_extra = "--qos=privileged --mail-type=END,FAIL --mail-user=16amz1@queensu.ca"
+    shell: 
+        """
+         module load StdEnv/2020 r/4.2.1
+        R_LIBS_USER="~/R/x86_64-redhat-linux-gnu-library/4.2.1"
+        Rscript scripts/checkMAFPlot.R 1> {log.out} 2> {log.err}
+        """    

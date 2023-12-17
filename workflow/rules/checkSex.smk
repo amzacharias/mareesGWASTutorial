@@ -35,7 +35,7 @@ rule checkSex:
             1> {log.out} 2> {log.err}
         """
         
-rule checkSexHist: 
+rule checkSexPlot: 
     input: 
         sexcheckFile = join("results", "1_qcGWAS", "2_checkSex", "plink.sexcheck")
     output: 
