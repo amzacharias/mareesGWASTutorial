@@ -1,0 +1,6 @@
+Building DAG of jobs...
+MissingInputException in rule all in file /global/home/hpc4920/mareesTutorialGWAS/workflow/Snakefile, line 21:
+Missing input files for rule all:
+    affected files:
+        results/1_qcGWAS/1_missing/plink1.lmiss
+        results/1_qcGWAS/1_missing/plink1.imiss

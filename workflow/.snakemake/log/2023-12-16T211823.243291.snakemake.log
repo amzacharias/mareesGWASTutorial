@@ -1,0 +1,2 @@
+SyntaxError in file /global/home/hpc4920/mareesTutorialGWAS/workflow/Snakefile, line 105:
+keyword argument repeated: snpbed

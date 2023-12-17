@@ -1,0 +1,34 @@
+Building DAG of jobs...
+Using shell: /cvmfs/soft.computecanada.ca/gentoo/2020/bin/bash
+Provided cores: 1 (use --cores to define parallelism)
+Rules claiming more threads will be scaled down.
+Job stats:
+job                       count    min threads    max threads
+----------------------  -------  -------------  -------------
+all                           1              1              1
+liberalMissingFilter          1              1              1
+stringentMissingFilter        1              1              1
+total                         3              1              1
+
+Select jobs to execute...
+
+[Sun Dec 17 12:00:10 2023]
+rule liberalMissingFilter:
+    output: results/1_qcGWAS/1_missing/HapMap_3_r3_snp0.2.bed, results/1_qcGWAS/1_missing/HapMap_3_r3_snp0.2.bim, results/1_qcGWAS/1_missing/HapMap_3_r3_snp0.2.fam, results/1_qcGWAS/1_missing/HapMap_3_r3_ind0.2.bed, results/1_qcGWAS/1_missing/HapMap_3_r3_ind0.2.bim, results/1_qcGWAS/1_missing/HapMap_3_r3_ind0.2.fam
+    log: logs/1_qcGWAS/1_missing02filt.out, logs/1_qcGWAS/1_missing02filt.err
+    jobid: 2
+    reason: Missing output files: results/1_qcGWAS/1_missing/HapMap_3_r3_snp0.2.bed, results/1_qcGWAS/1_missing/HapMap_3_r3_snp0.2.bim, results/1_qcGWAS/1_missing/HapMap_3_r3_ind0.2.fam, results/1_qcGWAS/1_missing/HapMap_3_r3_snp0.2.fam, results/1_qcGWAS/1_missing/HapMap_3_r3_ind0.2.bim, results/1_qcGWAS/1_missing/HapMap_3_r3_ind0.2.bed
+    resources: tmpdir=/tmp, mem_mb=30000, mem_mib=28611, runtime=100, cpus_per_task=1, slurm_extra=--qos=privileged --mail-type=END,FAIL --mail-user=16amz1@queensu.ca
+
+Waiting at most 5 seconds for missing files.
+MissingOutputException in rule liberalMissingFilter in file /global/home/hpc4920/mareesTutorialGWAS/workflow/Snakefile, line 74:
+Job 2  completed successfully, but some output files are missing. Missing files after 5 seconds. This might be due to filesystem latency. If that is the case, consider to increase the wait time with --latency-wait:
+results/1_qcGWAS/1_missing/HapMap_3_r3_snp0.2.bed
+results/1_qcGWAS/1_missing/HapMap_3_r3_snp0.2.bim
+results/1_qcGWAS/1_missing/HapMap_3_r3_snp0.2.fam
+results/1_qcGWAS/1_missing/HapMap_3_r3_ind0.2.bed
+results/1_qcGWAS/1_missing/HapMap_3_r3_ind0.2.bim
+results/1_qcGWAS/1_missing/HapMap_3_r3_ind0.2.fam
+Shutting down, this might take some time.
+Exiting because a job execution failed. Look above for error message
+Complete log: .snakemake/log/2023-12-17T120008.851624.snakemake.log

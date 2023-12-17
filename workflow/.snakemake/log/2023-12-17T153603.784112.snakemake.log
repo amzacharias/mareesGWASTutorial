@@ -1,0 +1,70 @@
+Building DAG of jobs...
+Using shell: /global/software/cvmfs/compat/bin/bash
+Provided cores: 1 (use --cores to define parallelism)
+Rules claiming more threads will be scaled down.
+Job stats:
+job                       count    min threads    max threads
+----------------------  -------  -------------  -------------
+all                           1              1              1
+checkSexHist                  1              1              1
+imputeSex                     1              1              1
+liberalMissingFilter          1              1              1
+makeMissingHists              1              1              1
+runMissingStats               1              1              1
+stringentMissingFilter        1              1              1
+total                         7              1              1
+
+Select jobs to execute...
+
+[Sun Dec 17 15:36:04 2023]
+rule runMissingStats:
+    input: data/HapMap_3_r3_1.bed, data/HapMap_3_r3_1.bim, data/HapMap_3_r3_1.fam
+    output: results/1_qcGWAS/1_missing/plink.imiss, results/1_qcGWAS/1_missing/plink.lmiss
+    log: logs/1_qcGWAS/1_missing.out, logs/1_qcGWAS/1_missing.err
+    jobid: 2
+    reason: Missing output files: results/1_qcGWAS/1_missing/plink.imiss, results/1_qcGWAS/1_missing/plink.lmiss; Set of input files has changed since last execution
+    resources: tmpdir=/tmp, mem_mb=30000, mem_mib=28611, runtime=100, cpus_per_task=1, slurm_extra=--qos=privileged --mail-type=END,FAIL --mail-user=16amz1@queensu.ca
+
+[Sun Dec 17 15:36:09 2023]
+Finished job 2.
+1 of 7 steps (14%) done
+Select jobs to execute...
+
+[Sun Dec 17 15:36:09 2023]
+rule makeMissingHists:
+    input: results/1_qcGWAS/1_missing/plink.imiss, results/1_qcGWAS/1_missing/plink.lmiss
+    output: results/1_qcGWAS/1_missing/imissHistPlot.pdf, results/1_qcGWAS/1_missing/lmissHistPlot.pdf
+    log: logs/1_qcGWAS/1_missingHist.out, logs/1_qcGWAS/1_missingHist.err
+    jobid: 1
+    reason: Missing output files: results/1_qcGWAS/1_missing/imissHistPlot.pdf, results/1_qcGWAS/1_missing/lmissHistPlot.pdf; Input files updated by another job: results/1_qcGWAS/1_missing/plink.imiss, results/1_qcGWAS/1_missing/plink.lmiss
+    resources: tmpdir=/tmp, mem_mb=30000, mem_mib=28611, runtime=100, cpus_per_task=1, slurm_extra=--qos=privileged --mail-type=END,FAIL --mail-user=16amz1@queensu.ca
+
+[Sun Dec 17 15:36:20 2023]
+Finished job 1.
+2 of 7 steps (29%) done
+Select jobs to execute...
+
+[Sun Dec 17 15:36:20 2023]
+rule checkSexHist:
+    output: results/1_qcGWAS/2_checkSex/checkSexPlot.pdf
+    log: logs/1_qcGWAS/2_checkSexPlot.out, logs/1_qcGWAS/2_checkSexPlot.err
+    jobid: 5
+    reason: Missing output files: results/1_qcGWAS/2_checkSex/checkSexPlot.pdf
+    resources: tmpdir=/tmp, mem_mb=30000, mem_mib=28611, runtime=100, cpus_per_task=1, slurm_extra=--qos=privileged --mail-type=END,FAIL --mail-user=16amz1@queensu.ca
+
+[Sun Dec 17 15:36:25 2023]
+Error in rule checkSexHist:
+    jobid: 5
+    output: results/1_qcGWAS/2_checkSex/checkSexPlot.pdf
+    log: logs/1_qcGWAS/2_checkSexPlot.out, logs/1_qcGWAS/2_checkSexPlot.err (check log file(s) for error details)
+    shell:
+        
+         module load StdEnv/2020 r/4.2.1
+        R_LIBS_USER="~/R/x86_64-redhat-linux-gnu-library/4.2.1"
+        Rscript scripts/checkSexPlot.R 1> logs/1_qcGWAS/2_checkSexPlot.out 2> logs/1_qcGWAS/2_checkSexPlot.err
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Shutting down, this might take some time.
+Exiting because a job execution failed. Look above for error message
+Complete log: .snakemake/log/2023-12-17T153603.784112.snakemake.log

@@ -1,0 +1,3 @@
+SyntaxError in file /global/home/hpc4920/mareesTutorialGWAS/workflow/rules/checkSex.smk, line 60:
+invalid syntax. Perhaps you forgot a comma?
+  File "/global/home/hpc4920/mareesTutorialGWAS/workflow/Snakefile", line 22, in <module>

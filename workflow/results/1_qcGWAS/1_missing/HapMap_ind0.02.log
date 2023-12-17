@@ -1,0 +1,33 @@
+PLINK v1.90b6.21 64-bit (19 Oct 2020)
+Options in effect:
+  --bfile data/HapMap_3_r3_1
+  --make-bed
+  --mind 0.02
+  --out results/1_qcGWAS/1_missing/HapMap_ind0.02
+
+Hostname: caclogin03
+Working directory: /global/home/hpc4920/mareesTutorialGWAS/workflow
+Start time: Sun Dec 17 16:49:47 2023
+
+Random number seed: 1702849787
+161009 MB RAM detected; reserving 80504 MB for main workspace.
+1457897 variants loaded from .bim file.
+165 people (80 males, 85 females) loaded from .fam.
+112 phenotype values loaded from .fam.
+1 person removed due to missing genotype data (--mind).
+ID written to results/1_qcGWAS/1_missing/HapMap_ind0.02.irem .
+Using 1 thread (no multithreaded calculations invoked).
+Before main variant filters, 112 founders and 52 nonfounders present.
+Calculating allele frequencies... done.
+Warning: 225 het. haploid genotypes present (see
+results/1_qcGWAS/1_missing/HapMap_ind0.02.hh ); many commands treat these as
+missing.
+Total genotyping rate in remaining samples is 0.997486.
+1457897 variants and 164 people pass filters and QC.
+Among remaining phenotypes, 56 are cases and 56 are controls.  (52 phenotypes
+are missing.)
+--make-bed to results/1_qcGWAS/1_missing/HapMap_ind0.02.bed +
+results/1_qcGWAS/1_missing/HapMap_ind0.02.bim +
+results/1_qcGWAS/1_missing/HapMap_ind0.02.fam ... done.
+
+End time: Sun Dec 17 16:49:48 2023

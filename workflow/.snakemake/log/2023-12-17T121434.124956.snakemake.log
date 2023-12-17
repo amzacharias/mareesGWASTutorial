@@ -1,0 +1,80 @@
+Building DAG of jobs...
+Using shell: /cvmfs/soft.computecanada.ca/gentoo/2020/bin/bash
+Provided cores: 1 (use --cores to define parallelism)
+Rules claiming more threads will be scaled down.
+Job stats:
+job                       count    min threads    max threads
+----------------------  -------  -------------  -------------
+all                           1              1              1
+liberalMissingFilter          1              1              1
+makeMissingHists              1              1              1
+runMissingStats               1              1              1
+stringentMissingFilter        1              1              1
+total                         5              1              1
+
+Select jobs to execute...
+
+[Sun Dec 17 12:14:34 2023]
+rule stringentMissingFilter:
+    output: results/1_qcGWAS/1_missing/HapMap_snp0.02.bed, results/1_qcGWAS/1_missing/HapMap_snp0.02.bim, results/1_qcGWAS/1_missing/HapMap_snp0.02.fam, results/1_qcGWAS/1_missing/HapMap_ind0.02.bed, results/1_qcGWAS/1_missing/HapMap_ind0.02.bim, results/1_qcGWAS/1_missing/HapMap_ind0.02.fam
+    log: logs/1_qcGWAS/1_missing002filt.out, logs/1_qcGWAS/1_missing002filt.err
+    jobid: 4
+    reason: Missing output files: results/1_qcGWAS/1_missing/HapMap_ind0.02.fam, results/1_qcGWAS/1_missing/HapMap_snp0.02.fam, results/1_qcGWAS/1_missing/HapMap_snp0.02.bim, results/1_qcGWAS/1_missing/HapMap_ind0.02.bim, results/1_qcGWAS/1_missing/HapMap_snp0.02.bed, results/1_qcGWAS/1_missing/HapMap_ind0.02.bed
+    resources: tmpdir=/tmp, mem_mb=30000, mem_mib=28611, runtime=100, cpus_per_task=1, slurm_extra=--qos=privileged --mail-type=END,FAIL --mail-user=16amz1@queensu.ca
+
+[Sun Dec 17 12:14:42 2023]
+Finished job 4.
+1 of 5 steps (20%) done
+Select jobs to execute...
+
+[Sun Dec 17 12:14:42 2023]
+rule runMissingStats:
+    output: results/1_qcGWAS/1_missing/plink.imiss, results/1_qcGWAS/1_missing/plink.lmiss
+    log: logs/1_qcGWAS/1_missing.out, logs/1_qcGWAS/1_missing.err
+    jobid: 2
+    reason: Missing output files: results/1_qcGWAS/1_missing/plink.lmiss, results/1_qcGWAS/1_missing/plink.imiss; Code has changed since last execution
+    resources: tmpdir=/tmp, mem_mb=30000, mem_mib=28611, runtime=100, cpus_per_task=1, slurm_extra=--qos=privileged --mail-type=END,FAIL --mail-user=16amz1@queensu.ca
+
+[Sun Dec 17 12:14:49 2023]
+Finished job 2.
+2 of 5 steps (40%) done
+Select jobs to execute...
+
+[Sun Dec 17 12:14:49 2023]
+rule makeMissingHists:
+    input: results/1_qcGWAS/1_missing/plink.imiss, results/1_qcGWAS/1_missing/plink.lmiss
+    output: results/1_qcGWAS/1_missing/imissHistPlot.pdf, results/1_qcGWAS/1_missing/lmissHistPlot.pdf
+    log: logs/1_qcGWAS/1_missingHist.out, logs/1_qcGWAS/1_missingHist.err
+    jobid: 1
+    reason: Missing output files: results/1_qcGWAS/1_missing/lmissHistPlot.pdf, results/1_qcGWAS/1_missing/imissHistPlot.pdf; Input files updated by another job: results/1_qcGWAS/1_missing/plink.lmiss, results/1_qcGWAS/1_missing/plink.imiss
+    resources: tmpdir=/tmp, mem_mb=30000, mem_mib=28611, runtime=100, cpus_per_task=1, slurm_extra=--qos=privileged --mail-type=END,FAIL --mail-user=16amz1@queensu.ca
+
+[Sun Dec 17 12:15:17 2023]
+Finished job 1.
+3 of 5 steps (60%) done
+Select jobs to execute...
+
+[Sun Dec 17 12:15:17 2023]
+rule liberalMissingFilter:
+    output: results/1_qcGWAS/1_missing/HapMap_snp0.2.bed, results/1_qcGWAS/1_missing/HapMap_snp0.2.bim, results/1_qcGWAS/1_missing/HapMap_snp0.2.fam, results/1_qcGWAS/1_missing/HapMap_ind0.2.bed, results/1_qcGWAS/1_missing/HapMap_ind0.2.bim, results/1_qcGWAS/1_missing/HapMap_ind0.2.fam
+    log: logs/1_qcGWAS/1_missing02filt.out, logs/1_qcGWAS/1_missing02filt.err
+    jobid: 3
+    reason: Missing output files: results/1_qcGWAS/1_missing/HapMap_ind0.2.bed, results/1_qcGWAS/1_missing/HapMap_snp0.2.bed, results/1_qcGWAS/1_missing/HapMap_snp0.2.bim, results/1_qcGWAS/1_missing/HapMap_ind0.2.bim, results/1_qcGWAS/1_missing/HapMap_snp0.2.fam, results/1_qcGWAS/1_missing/HapMap_ind0.2.fam
+    resources: tmpdir=/tmp, mem_mb=30000, mem_mib=28611, runtime=100, cpus_per_task=1, slurm_extra=--qos=privileged --mail-type=END,FAIL --mail-user=16amz1@queensu.ca
+
+[Sun Dec 17 12:15:23 2023]
+Finished job 3.
+4 of 5 steps (80%) done
+Select jobs to execute...
+
+[Sun Dec 17 12:15:23 2023]
+localrule all:
+    input: results/1_qcGWAS/1_missing/imissHistPlot.pdf, results/1_qcGWAS/1_missing/lmissHistPlot.pdf, results/1_qcGWAS/1_missing/HapMap_snp0.2.bed, results/1_qcGWAS/1_missing/HapMap_snp0.2.bim, results/1_qcGWAS/1_missing/HapMap_snp0.2.fam, results/1_qcGWAS/1_missing/HapMap_snp0.02.bed, results/1_qcGWAS/1_missing/HapMap_snp0.02.bim, results/1_qcGWAS/1_missing/HapMap_snp0.02.fam, results/1_qcGWAS/1_missing/HapMap_ind0.2.bed, results/1_qcGWAS/1_missing/HapMap_ind0.2.bim, results/1_qcGWAS/1_missing/HapMap_ind0.2.fam, results/1_qcGWAS/1_missing/HapMap_ind0.02.bed, results/1_qcGWAS/1_missing/HapMap_ind0.02.bim, results/1_qcGWAS/1_missing/HapMap_ind0.02.fam
+    jobid: 0
+    reason: Input files updated by another job: results/1_qcGWAS/1_missing/HapMap_ind0.2.bed, results/1_qcGWAS/1_missing/HapMap_snp0.2.bed, results/1_qcGWAS/1_missing/HapMap_snp0.2.bim, results/1_qcGWAS/1_missing/HapMap_ind0.2.bim, results/1_qcGWAS/1_missing/HapMap_snp0.02.bed, results/1_qcGWAS/1_missing/HapMap_snp0.2.fam, results/1_qcGWAS/1_missing/imissHistPlot.pdf, results/1_qcGWAS/1_missing/HapMap_ind0.02.fam, results/1_qcGWAS/1_missing/HapMap_snp0.02.fam, results/1_qcGWAS/1_missing/HapMap_snp0.02.bim, results/1_qcGWAS/1_missing/HapMap_ind0.2.fam, results/1_qcGWAS/1_missing/HapMap_ind0.02.bim, results/1_qcGWAS/1_missing/lmissHistPlot.pdf, results/1_qcGWAS/1_missing/HapMap_ind0.02.bed
+    resources: tmpdir=/tmp
+
+[Sun Dec 17 12:15:23 2023]
+Finished job 0.
+5 of 5 steps (100%) done
+Complete log: .snakemake/log/2023-12-17T121434.124956.snakemake.log

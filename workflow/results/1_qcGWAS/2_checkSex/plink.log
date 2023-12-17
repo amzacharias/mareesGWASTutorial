@@ -1,0 +1,28 @@
+PLINK v1.90b6.21 64-bit (19 Oct 2020)
+Options in effect:
+  --bfile results/1_qcGWAS/1_missing/HapMap_ind0.02
+  --check-sex
+  --out results/1_qcGWAS/2_checkSex/plink
+
+Hostname: caclogin03
+Working directory: /global/home/hpc4920/mareesTutorialGWAS/workflow
+Start time: Sun Dec 17 16:49:53 2023
+
+Random number seed: 1702849793
+161009 MB RAM detected; reserving 80504 MB for main workspace.
+1457897 variants loaded from .bim file.
+164 people (79 males, 85 females) loaded from .fam.
+112 phenotype values loaded from .fam.
+Using 1 thread (no multithreaded calculations invoked).
+Before main variant filters, 112 founders and 52 nonfounders present.
+Calculating allele frequencies... done.
+Warning: 225 het. haploid genotypes present (see
+results/1_qcGWAS/2_checkSex/plink.hh ); many commands treat these as missing.
+Total genotyping rate is 0.997486.
+1457897 variants and 164 people pass filters and QC.
+Among remaining phenotypes, 56 are cases and 56 are controls.  (52 phenotypes
+are missing.)
+--check-sex: 25093 Xchr and 0 Ychr variant(s) scanned, 1 problem detected.
+Report written to results/1_qcGWAS/2_checkSex/plink.sexcheck .
+
+End time: Sun Dec 17 16:49:54 2023
