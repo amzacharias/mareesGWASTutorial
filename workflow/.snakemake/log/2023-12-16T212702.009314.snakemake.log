@@ -1,6 +1,0 @@
-Building DAG of jobs...
-MissingInputException in rule all in file /global/home/hpc4920/mareesTutorialGWAS/workflow/Snakefile, line 21:
-Missing input files for rule all:
-    affected files:
-        results/1_qcGWAS/1_missing/HapMap_3_r3_ind02.bam
-        results/1_qcGWAS/1_missing/HapMap_3_r3_snp02.bam

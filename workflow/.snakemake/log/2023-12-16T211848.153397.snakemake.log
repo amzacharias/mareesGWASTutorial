@@ -1,3 +1,0 @@
-CreateRuleException in file /global/home/hpc4920/mareesTutorialGWAS/workflow/Snakefile, line 78:
-The name makeMissingHists is already used by another rule
-  File "/global/home/hpc4920/mareesTutorialGWAS/workflow/Snakefile", line 78, in <module>
