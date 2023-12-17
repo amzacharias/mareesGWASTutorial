@@ -2,16 +2,31 @@ GWA_tutorial
 .RData
 .Rhistory
 mareesTutorialGWAS.Rproj
+.Rproj.user
+workflow/.snakemake
+workflow/data
 
 # Large files
-# find . -size +50M | cat >> .gitignore
-.Rproj.user./workflow/results/1_qcGWAS/2_checkSex/HapMap_impSex.bed
+# find . -size +20M | cat >> .gitignore
+./workflow/results/1_qcGWAS/3_autoMAF/HapMap_MAF.bed
+./workflow/results/1_qcGWAS/3_autoMAF/checkMAF.frq
+./workflow/results/1_qcGWAS/3_autoMAF/HapMap_MAF.bim
+./workflow/results/1_qcGWAS/3_autoMAF/HapMap_auto.bim
+./workflow/results/1_qcGWAS/3_autoMAF/HapMap_auto.bed
+./workflow/results/1_qcGWAS/2_checkSex/HapMap_impSex.bed
+./workflow/results/1_qcGWAS/2_checkSex/HapMap_impSex.bim
 ./workflow/results/1_qcGWAS/1_missing/HapMap_snp0.02.bed
+./workflow/results/1_qcGWAS/1_missing/HapMap_snp0.2.bim
 ./workflow/results/1_qcGWAS/1_missing/plink.lmiss
 ./workflow/results/1_qcGWAS/1_missing/HapMap_ind0.02.bed
 ./workflow/results/1_qcGWAS/1_missing/HapMap_ind0.2.bed
+./workflow/results/1_qcGWAS/1_missing/HapMap_ind0.2.bim
+./workflow/results/1_qcGWAS/1_missing/HapMap_ind0.02.bim
+./workflow/results/1_qcGWAS/1_missing/HapMap_snp0.02.bim
 ./workflow/results/1_qcGWAS/1_missing/HapMap_snp0.2.bed
-./workflow/results/1_qcGWAS/3_filtSNPs/checkMAF.frq
-./workflow/results/1_qcGWAS/3_filtSNPs/HapMap_auto.bed
-./workflow/data/HapMap_3_r3_1.bed
-./GWA_tutorial/1_QC_GWAS/HapMap_3_r3_1.bed
+./workflow/results/1_qcGWAS/4_HWE/HapMap_HWEctrl.bed
+./workflow/results/1_qcGWAS/4_HWE/HapMap_HWEcase.bed
+./workflow/results/1_qcGWAS/4_HWE/HapMap_HWEcase.bim
+./workflow/results/1_qcGWAS/4_HWE/plink.hwe
+./workflow/results/1_qcGWAS/4_HWE/HapMap_HWEctrl.bim
+

@@ -21,9 +21,15 @@ from os.path import join
 include: join("rules", "missing.smk")
 include: join("rules", "checkSex.smk")
 include: join("rules", "autoMAF.smk")
+include: join("rules", "hwe.smk")
 
 rule all:
     input:
-        expand(join("results", "1_qcGWAS", "3_autoMAF", "HapMap_MAF.{end}"), 
+        expand(join("results", "1_qcGWAS", "4_HWE", "HapMap_HWEctrl.{end}"), 
+          end = ["bed", "bim", "fam"]), 
+        expand(join("results", "1_qcGWAS", "4_HWE", "HapMap_HWEcase.{end}"), 
           end = ["bed", "bim", "fam"])
-        
+
+
+    
+

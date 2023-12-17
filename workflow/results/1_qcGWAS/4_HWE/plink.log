@@ -1,0 +1,23 @@
+PLINK v1.90b6.21 64-bit (19 Oct 2020)
+Options in effect:
+  --bfile results/1_qcGWAS/3_autoMAF/HapMap_MAF
+  --hardy
+  --out results/1_qcGWAS/4_HWE/plink
+
+Hostname: caclogin03
+Working directory: /global/home/hpc4920/mareesTutorialGWAS/workflow
+Start time: Sun Dec 17 17:44:42 2023
+
+Random number seed: 1702853082
+161009 MB RAM detected; reserving 80504 MB for main workspace.
+1092489 variants loaded from .bim file.
+164 people (80 males, 84 females) loaded from .fam.
+112 phenotype values loaded from .fam.
+Using 1 thread (no multithreaded calculations invoked).
+Before main variant filters, 112 founders and 52 nonfounders present.
+Calculating allele frequencies... done.
+Total genotyping rate is 0.997664.
+--hardy: Writing Hardy-Weinberg report (founders only) to
+results/1_qcGWAS/4_HWE/plink.hwe ... done.
+
+End time: Sun Dec 17 17:44:45 2023

@@ -1,0 +1,3 @@
+Warning: --hwe observation counts vary by more than 10%.  Consider using
+--geno, and/or applying different p-value thresholds to distinct subsets of
+your data.
