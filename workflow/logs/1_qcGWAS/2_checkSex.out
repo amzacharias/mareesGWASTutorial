@@ -1,4 +1,4 @@
-Job started at 17:21:19
+Job started at 23:27:30
 PLINK v1.90b6.21 64-bit (19 Oct 2020)          www.cog-genomics.org/plink/1.9/
 (C) 2005-2020 Shaun Purcell, Christopher Chang   GNU General Public License v3
 Logging to results/1_qcGWAS/2_checkSex/plink.log.
@@ -20,4 +20,4 @@ Among remaining phenotypes, 56 are cases and 56 are controls.  (52 phenotypes
 are missing.)
 --check-sex: 25093 Xchr and 0 Ychr variant(s) scanned, 1 problem detected.
 Report written to results/1_qcGWAS/2_checkSex/plink.sexcheck .
-Job ended at 17:21:20
+Job ended at 23:27:30

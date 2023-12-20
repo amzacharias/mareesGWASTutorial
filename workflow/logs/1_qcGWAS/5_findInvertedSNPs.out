@@ -1,4 +1,4 @@
-Job started at 14:11:32
+Job started at 23:28:50
 PLINK v1.90b6.21 64-bit (19 Oct 2020)          www.cog-genomics.org/plink/1.9/
 (C) 2005-2020 Shaun Purcell, Christopher Chang   GNU General Public License v3
 Logging to results/1_qcGWAS/5_het/HapMap_findInv.log.
@@ -46,4 +46,4 @@ are missing.)
 Pruning complete.  977668 of 1082433 variants removed.
 Writing...Marker lists written to results/1_qcGWAS/5_het/HapMap_findInv.prune.in and
 results/1_qcGWAS/5_het/HapMap_findInv.prune.out .
-Job ended at 14:11:34
+Job ended at 23:28:52

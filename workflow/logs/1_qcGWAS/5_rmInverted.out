@@ -1,4 +1,4 @@
-Job started at 14:11:40
+Job started at 23:28:57
 PLINK v1.90b6.21 64-bit (19 Oct 2020)          www.cog-genomics.org/plink/1.9/
 (C) 2005-2020 Shaun Purcell, Christopher Chang   GNU General Public License v3
 Logging to results/1_qcGWAS/5_het/HapMap_rmInv.log.
@@ -22,4 +22,4 @@ Among remaining phenotypes, 56 are cases and 56 are controls.  (52 phenotypes
 are missing.)
 --het: 104765 variants scanned, report written to
 results/1_qcGWAS/5_het/HapMap_rmInv.het .
-Job ended at 14:11:40
+Job ended at 23:28:58

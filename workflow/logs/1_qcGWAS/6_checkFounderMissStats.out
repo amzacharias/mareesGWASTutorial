@@ -1,4 +1,4 @@
-Job started at 22:39:38
+Job started at 23:29:36
 PLINK v1.90b6.21 64-bit (19 Oct 2020)          www.cog-genomics.org/plink/1.9/
 (C) 2005-2020 Shaun Purcell, Christopher Chang   GNU General Public License v3
 Logging to results/1_qcGWAS/6_rel/plink.log.
@@ -18,4 +18,4 @@ Total genotyping rate is 0.99752.
 --missing: Sample missing data report written to
 results/1_qcGWAS/6_rel/plink.imiss, and variant-based missing data report
 written to results/1_qcGWAS/6_rel/plink.lmiss.
-Job ended at 22:39:38
+Job ended at 23:29:37

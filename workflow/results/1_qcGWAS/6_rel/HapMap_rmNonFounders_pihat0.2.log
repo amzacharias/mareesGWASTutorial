@@ -8,9 +8,9 @@ Options in effect:
 
 Hostname: caclogin03
 Working directory: /global/home/hpc4920/mareesTutorialGWAS/workflow
-Start time: Tue Dec 19 22:26:57 2023
+Start time: Tue Dec 19 23:29:31 2023
 
-Random number seed: 1703042817
+Random number seed: 1703046571
 161009 MB RAM detected; reserving 80504 MB for main workspace.
 1092489 variants loaded from .bim file.
 110 people (55 males, 55 females) loaded from .fam.
@@ -25,4 +25,4 @@ Among remaining phenotypes, 55 are cases and 55 are controls.
 IBD calculations complete.
 Finished writing results/1_qcGWAS/6_rel/HapMap_rmNonFounders_pihat0.2.genome .
 
-End time: Tue Dec 19 22:26:58 2023
+End time: Tue Dec 19 23:29:31 2023
