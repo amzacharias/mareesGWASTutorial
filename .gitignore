@@ -6,37 +6,15 @@ mareesTutorialGWAS.Rproj
 workflow/.snakemake
 workflow/data
 
+*bed
+*bim
+*fam
+
 # Large files
 # find . -size +20M | cat >> .gitignore
-./workflow/results/1_qcGWAS/3_autoMAF/HapMap_MAF.bed
 ./workflow/results/1_qcGWAS/3_autoMAF/checkMAF.frq
-./workflow/results/1_qcGWAS/3_autoMAF/HapMap_MAF.bim
-./workflow/results/1_qcGWAS/3_autoMAF/HapMap_auto.bim
-./workflow/results/1_qcGWAS/3_autoMAF/HapMap_auto.bed
-./workflow/results/1_qcGWAS/2_checkSex/HapMap_impSex.bed
-./workflow/results/1_qcGWAS/2_checkSex/HapMap_impSex.bim
-./workflow/results/1_qcGWAS/1_missing/HapMap_snp0.02.bed
-./workflow/results/1_qcGWAS/1_missing/HapMap_snp0.2.bim
 ./workflow/results/1_qcGWAS/1_missing/plink.lmiss
-./workflow/results/1_qcGWAS/1_missing/HapMap_ind0.02.bed
-./workflow/results/1_qcGWAS/1_missing/HapMap_ind0.2.bed
-./workflow/results/1_qcGWAS/1_missing/HapMap_ind0.2.bim
-./workflow/results/1_qcGWAS/1_missing/HapMap_ind0.02.bim
-./workflow/results/1_qcGWAS/1_missing/HapMap_snp0.02.bim
-./workflow/results/1_qcGWAS/1_missing/HapMap_snp0.2.bed
 ./workflow/results/1_qcGWAS/6_rel/plink.lmiss
-./workflow/results/1_qcGWAS/6_rel/HapMap_rmNonFounders.bed
-./workflow/results/1_qcGWAS/6_rel/HapMap_rmNonFounders.bim
-./workflow/results/1_qcGWAS/4_HWE/HapMap_HWEctrl.bed
-./workflow/results/1_qcGWAS/4_HWE/HapMap_HWEcase.bed
-./workflow/results/1_qcGWAS/4_HWE/HapMap_HWEcase.bim
 ./workflow/results/1_qcGWAS/4_HWE/plink.hwe
-./workflow/results/1_qcGWAS/4_HWE/HapMap_HWEctrl.bim
-./workflow/results/1_qcGWAS/5_het/HapMap_rmHet.bim
-./workflow/results/1_qcGWAS/5_het/HapMap_rmHet.bed
-./workflow/data/HapMap_3_r3_1.bed
-./workflow/data/HapMap_3_r3_1.bim
-./GWA_tutorial/1_QC_GWAS/HapMap_3_r3_1.bed
-./GWA_tutorial/1_QC_GWAS/HapMap_3_r3_1.bim
 ./GWA_tutorial/1_QC_GWAS.zip
 ./GWA_tutorial/.git/objects/pack/pack-8d82533acf8ac5c5b27e0c1fe79605eaa9c95fe0.pack
