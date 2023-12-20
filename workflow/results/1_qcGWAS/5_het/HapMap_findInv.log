@@ -1,0 +1,52 @@
+PLINK v1.90b6.21 64-bit (19 Oct 2020)
+Options in effect:
+  --bfile results/1_qcGWAS/4_HWE/HapMap_HWEcase
+  --exclude range data/inversion.txt
+  --indep-pairwise 50 5 0.2
+  --out results/1_qcGWAS/5_het/HapMap_findInv
+
+Hostname: caclogin03
+Working directory: /global/home/hpc4920/mareesTutorialGWAS/workflow
+Start time: Tue Dec 19 14:11:32 2023
+
+Random number seed: 1703013092
+161009 MB RAM detected; reserving 80504 MB for main workspace.
+1092489 variants loaded from .bim file.
+164 people (80 males, 84 females) loaded from .fam.
+112 phenotype values loaded from .fam.
+--exclude range: 10056 variants excluded.
+--exclude range: 1082433 variants remaining.
+Using 1 thread (no multithreaded calculations invoked).
+Before main variant filters, 112 founders and 52 nonfounders present.
+Calculating allele frequencies... done.
+Total genotyping rate is 0.99766.
+1082433 variants and 164 people pass filters and QC.
+Among remaining phenotypes, 56 are cases and 56 are controls.  (52 phenotypes
+are missing.)
+Pruned 80704 variants from chromosome 1, leaving 8473.
+Pruned 83332 variants from chromosome 2, leaving 7981.
+Pruned 69158 variants from chromosome 3, leaving 6972.
+Pruned 61243 variants from chromosome 4, leaving 6236.
+Pruned 63863 variants from chromosome 5, leaving 6367.
+Pruned 60550 variants from chromosome 6, leaving 6153.
+Pruned 54585 variants from chromosome 7, leaving 5655.
+Pruned 52165 variants from chromosome 8, leaving 5064.
+Pruned 46175 variants from chromosome 9, leaving 4992.
+Pruned 52726 variants from chromosome 10, leaving 5421.
+Pruned 51147 variants from chromosome 11, leaving 5058.
+Pruned 48438 variants from chromosome 12, leaving 5277.
+Pruned 37178 variants from chromosome 13, leaving 4061.
+Pruned 32389 variants from chromosome 14, leaving 3520.
+Pruned 29334 variants from chromosome 15, leaving 3415.
+Pruned 30626 variants from chromosome 16, leaving 3709.
+Pruned 24876 variants from chromosome 17, leaving 3387.
+Pruned 28783 variants from chromosome 18, leaving 3456.
+Pruned 17239 variants from chromosome 19, leaving 2835.
+Pruned 25296 variants from chromosome 20, leaving 3060.
+Pruned 14091 variants from chromosome 21, leaving 1715.
+Pruned 13770 variants from chromosome 22, leaving 1958.
+Pruning complete.  977668 of 1082433 variants removed.
+Marker lists written to results/1_qcGWAS/5_het/HapMap_findInv.prune.in and
+results/1_qcGWAS/5_het/HapMap_findInv.prune.out .
+
+End time: Tue Dec 19 14:11:34 2023

@@ -1,0 +1,28 @@
+PLINK v1.90b6.21 64-bit (19 Oct 2020)
+Options in effect:
+  --bfile results/1_qcGWAS/4_HWE/HapMap_HWEcase
+  --extract results/1_qcGWAS/5_het/HapMap_findInv.prune.in
+  --het
+  --out results/1_qcGWAS/5_het/HapMap_rmInv
+
+Hostname: caclogin03
+Working directory: /global/home/hpc4920/mareesTutorialGWAS/workflow
+Start time: Tue Dec 19 14:11:40 2023
+
+Random number seed: 1703013100
+161009 MB RAM detected; reserving 80504 MB for main workspace.
+1092489 variants loaded from .bim file.
+164 people (80 males, 84 females) loaded from .fam.
+112 phenotype values loaded from .fam.
+--extract: 104765 variants remaining.
+Using 1 thread (no multithreaded calculations invoked).
+Before main variant filters, 112 founders and 52 nonfounders present.
+Calculating allele frequencies... done.
+Total genotyping rate is 0.997518.
+104765 variants and 164 people pass filters and QC.
+Among remaining phenotypes, 56 are cases and 56 are controls.  (52 phenotypes
+are missing.)
+--het: 104765 variants scanned, report written to
+results/1_qcGWAS/5_het/HapMap_rmInv.het .
+
+End time: Tue Dec 19 14:11:40 2023

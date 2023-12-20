@@ -1,0 +1,24 @@
+PLINK v1.90b6.21 64-bit (19 Oct 2020)
+Options in effect:
+  --bfile results/1_qcGWAS/6_rel/HapMap_rmNonFounders
+  --missing
+  --out results/1_qcGWAS/6_rel/plink
+
+Hostname: caclogin03
+Working directory: /global/home/hpc4920/mareesTutorialGWAS/workflow
+Start time: Tue Dec 19 22:39:38 2023
+
+Random number seed: 1703043578
+161009 MB RAM detected; reserving 80504 MB for main workspace.
+1092489 variants loaded from .bim file.
+110 people (55 males, 55 females) loaded from .fam.
+110 phenotype values loaded from .fam.
+Using 1 thread (no multithreaded calculations invoked).
+Before main variant filters, 110 founders and 0 nonfounders present.
+Calculating allele frequencies... done.
+Total genotyping rate is 0.99752.
+--missing: Sample missing data report written to
+results/1_qcGWAS/6_rel/plink.imiss, and variant-based missing data report
+written to results/1_qcGWAS/6_rel/plink.lmiss.
+
+End time: Tue Dec 19 22:39:38 2023

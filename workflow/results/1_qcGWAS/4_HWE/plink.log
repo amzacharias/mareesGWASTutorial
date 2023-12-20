@@ -6,9 +6,9 @@ Options in effect:
 
 Hostname: caclogin03
 Working directory: /global/home/hpc4920/mareesTutorialGWAS/workflow
-Start time: Sun Dec 17 17:44:42 2023
+Start time: Mon Dec 18 17:22:08 2023
 
-Random number seed: 1702853082
+Random number seed: 1702938128
 161009 MB RAM detected; reserving 80504 MB for main workspace.
 1092489 variants loaded from .bim file.
 164 people (80 males, 84 females) loaded from .fam.
@@ -20,4 +20,4 @@ Total genotyping rate is 0.997664.
 --hardy: Writing Hardy-Weinberg report (founders only) to
 results/1_qcGWAS/4_HWE/plink.hwe ... done.
 
-End time: Sun Dec 17 17:44:45 2023
+End time: Mon Dec 18 17:22:10 2023

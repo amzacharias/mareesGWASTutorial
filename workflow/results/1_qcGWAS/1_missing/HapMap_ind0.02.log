@@ -7,9 +7,9 @@ Options in effect:
 
 Hostname: caclogin03
 Working directory: /global/home/hpc4920/mareesTutorialGWAS/workflow
-Start time: Sun Dec 17 16:49:47 2023
+Start time: Mon Dec 18 17:21:14 2023
 
-Random number seed: 1702849787
+Random number seed: 1702938074
 161009 MB RAM detected; reserving 80504 MB for main workspace.
 1457897 variants loaded from .bim file.
 165 people (80 males, 85 females) loaded from .fam.
@@ -30,4 +30,4 @@ are missing.)
 results/1_qcGWAS/1_missing/HapMap_ind0.02.bim +
 results/1_qcGWAS/1_missing/HapMap_ind0.02.fam ... done.
 
-End time: Sun Dec 17 16:49:48 2023
+End time: Mon Dec 18 17:21:15 2023

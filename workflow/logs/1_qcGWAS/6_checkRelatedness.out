@@ -1,0 +1,26 @@
+Job started at 21:35:17
+PLINK v1.90b6.21 64-bit (19 Oct 2020)          www.cog-genomics.org/plink/1.9/
+(C) 2005-2020 Shaun Purcell, Christopher Chang   GNU General Public License v3
+Logging to results/1_qcGWAS/6_rel/HapMap_pihat0.2.log.
+Options in effect:
+  --bfile results/1_qcGWAS/5_het/HapMap_rmHet
+  --extract results/1_qcGWAS/5_het/HapMap_findInv.prune.in
+  --genome
+  --min 0.2
+  --out results/1_qcGWAS/6_rel/HapMap_pihat0.2
+
+161009 MB RAM detected; reserving 80504 MB for main workspace.
+1092489 variants loaded from .bim file.
+162 people (78 males, 84 females) loaded from .fam.
+110 phenotype values loaded from .fam.
+--extract: 104765 variants remaining.
+Using up to 23 threads (change this with --threads).
+Before main variant filters, 110 founders and 52 nonfounders present.
+Calculating allele frequencies... 0%1%2%3%4%5%6%7%8%9%10%11%12%13%14%15%16%17%18%19%20%21%22%23%24%25%26%27%28%29%30%31%32%33%34%35%36%37%38%39%40%41%42%43%44%45%46%47%48%49%50%51%52%53%54%55%56%57%58%59%60%61%62%63%64%65%66%67%68%69%70%71%72%73%74%75%76%77%78%79%80%81%82%83%84%85%86%87%88%89%90%91%92%93%94%95%96%97%98%99% done.
+Total genotyping rate is 0.997532.
+104765 variants and 162 people pass filters and QC.
+Among remaining phenotypes, 55 are cases and 55 are controls.  (52 phenotypes
+are missing.)
+1152 markers complete.2304 markers complete.3456 markers complete.4608 markers complete.5760 markers complete.6912 markers complete.8064 markers complete.9216 markers complete.10368 markers complete.11520 markers complete.12672 markers complete.13824 markers complete.14976 markers complete.16128 markers complete.17280 markers complete.18432 markers complete.19584 markers complete.20736 markers complete.21888 markers complete.23040 markers complete.24192 markers complete.25344 markers complete.26496 markers complete.27648 markers complete.28800 markers complete.29952 markers complete.31104 markers complete.32256 markers complete.33408 markers complete.34560 markers complete.35712 markers complete.36864 markers complete.38016 markers complete.39168 markers complete.40320 markers complete.41472 markers complete.42624 markers complete.43776 markers complete.44928 markers complete.46080 markers complete.47232 markers complete.48384 markers complete.49536 markers complete.50688 markers complete.51840 markers complete.52992 markers complete.54144 markers complete.55296 markers complete.56448 markers complete.57600 markers complete.58752 markers complete.59904 markers complete.61056 markers complete.62208 markers complete.63360 markers complete.64512 markers complete.65664 markers complete.66816 markers complete.67968 markers complete.69120 markers complete.70272 markers complete.71424 markers complete.72576 markers complete.73728 markers complete.74880 markers complete.76032 markers complete.77184 markers complete.78336 markers complete.79488 markers complete.80640 markers complete.81792 markers complete.82944 markers complete.84096 markers complete.85248 markers complete.86400 markers complete.87552 markers complete.88704 markers complete.89856 markers complete.91008 markers complete.92160 markers complete.93312 markers complete.94464 markers complete.95616 markers complete.96768 markers complete.97920 markers complete.99072 markers complete.100224 markers complete.101376 markers complete.102528 markers complete.103680 markers complete.104765 markers complete.IBD calculations complete.  
+Writing... 99%Finished writing results/1_qcGWAS/6_rel/HapMap_pihat0.2.genome .
+Job ended at 21:35:18
