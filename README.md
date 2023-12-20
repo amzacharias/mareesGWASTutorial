@@ -3,4 +3,5 @@ README
 
 Following [Marees <em>et al</em>'s GWAS
 tutorial](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6001694/) With
-small adaptions to plink v 1.9 and more familiarity with R.
+small adaptions to plink v 1.9 and more familiarity with R. Steps are
+connected into a pipeline using snakemake.
