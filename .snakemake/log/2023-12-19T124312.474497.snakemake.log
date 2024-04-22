@@ -1,0 +1,8 @@
+Building DAG of jobs...
+MissingInputException in rule checkMissingStats in file /global/home/hpc4920/mareesTutorialGWAS/workflow/rules/missing.smk, line 13:
+Missing input files for rule checkMissingStats:
+    output: results/1_qcGWAS/1_missing/plink.imiss, results/1_qcGWAS/1_missing/plink.lmiss
+    affected files:
+        data/HapMap_3_r3_1.bim
+        data/HapMap_3_r3_1.bed
+        data/HapMap_3_r3_1.fam
