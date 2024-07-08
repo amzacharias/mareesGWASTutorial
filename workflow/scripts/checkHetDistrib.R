@@ -51,7 +51,11 @@ ggsave(plot = hetPlot, filename = "checkHetDistribPlot.pdf", path = baseDir,
 het <- het %>% 
   # N.NM. = Number of (nonmissing, non-monomorphic) autosomal genotype observations
   # O.HOM. = Observed number of homozygotes
-  mutate(HET.RATE = (N.NM. - O.HOM.) / N.NM.)
+  # E.HOM = Expected number of homozygotes
+  # F = (observed - expected) / (total observations - expected)
+  mutate(HET.RATE = (O.HOM. - E.HOM.) / (N.NM. - E.HOM.))
+
+# HET.RATE should == F calculated by plink 
 
 hetStats <- het %>% 
   summarize(
